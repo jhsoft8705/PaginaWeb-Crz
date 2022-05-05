@@ -63,7 +63,7 @@
             <div class="container">
               <div class="row align-items-center">
                 <div class="col-md-6 offset-md-6 text-center text-md-right">
-                  <h1>Platzi Conf Hawaii</h1>
+                  <h1>when an unknown p</h1>
                   <p class="d-none d-md-block">
                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                   Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
