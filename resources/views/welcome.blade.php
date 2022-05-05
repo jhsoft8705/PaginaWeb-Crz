@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    pagina 1
+    pagina1
 </body>
 </html>
