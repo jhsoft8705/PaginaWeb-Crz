@@ -15,14 +15,10 @@
     <header class="sticky-top">
       <nav id="header" class="navbar navbar-expand-lg navbar-dark colonavar"   >
         <div class="container">
-          <a class="navbar-brand" href="#">
-<<<<<<< HEAD
+          <a class="navbar-brand" href="#"> 
             <img src="assets/img/web.png" alt="Logo">
             KRUZRD E.I.R.L
-=======
-            <img src="images/platzi-logo.png" alt="Logo">
-            COMUNICACIONES KRUZRD EIRL
->>>>>>> 7d1227d78fa4ae6b4b2f6eaad4cd2b013d4d6fad
+ 
           </a>
           <button class="navbar-toggler btn btn-primary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon btn btn-primary"></span>
