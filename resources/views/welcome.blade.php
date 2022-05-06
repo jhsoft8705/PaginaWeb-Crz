@@ -62,7 +62,7 @@
             <div class="container">
               <div class="row align-items-center">
                 <div class="col-md-6 offset-md-6 text-center text-md-right ">
-                  <h1>KRUZRD E.I.R.L</h1>
+                  <h1>QUE OFRECEMOS</h1>
                   <p class="d-none  d-md-block">
                   Ofrecemos soluciones innovadoras, 
                   transformamos y simplificamos vidas de nuestros clientes.
