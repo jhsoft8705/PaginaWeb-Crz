@@ -16,7 +16,7 @@
       <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img width="60px" height="40px" src="assets/img/logo.png" alt="Logo">
+            <img width="60px" height="40px" src="assets/img/logo1.png" alt="Logo">
             COMUNICACIONES KRUZRD EIRL
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
