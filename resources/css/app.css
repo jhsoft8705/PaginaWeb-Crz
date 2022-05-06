@@ -1,0 +1,35 @@
+.txt-platzi{
+    color: #97c93e !important
+}
+.colonavar{
+    background: #645ac2;
+}
+.header img{
+    width: 100px;
+    height: 100px;
+}
+.colornav{
+   background-color: rgb(50, 170, 90);
+}
+ 
+#main .carousel-inner img{
+    max-width: 800vh;
+    max-height: 455px;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+#carousel{
+    position: relative;
+}
+#carousel .overlay {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+  

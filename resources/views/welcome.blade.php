@@ -6,20 +6,21 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="resources/css/app.css">
 
     <title>LOREM NAME</title>
   </head>
   <body data-spy="scroll" data-target="#navbarSupportedContent" data-offset="57">
     <!-- Header -->
     <header class="sticky-top">
-      <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav id="header" class="navbar navbar-expand-lg navbar-dark colonavar"   >
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="images/platzi-logo.png" alt="Logo">
-            Why do we use it?
+            <img src="assets/img/web.png" alt="Logo">
+            KRUZRD E.I.R.L
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button class="navbar-toggler btn btn-primary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon btn btn-primary"></span>
           </button>
           
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -45,19 +46,20 @@
       </nav>
     </header>
     <!-- /Header -->
-
-    <!-- Main -->
-    <main id="main">
+    <!--Carrusel-->
+ 
+      <!-- Main -->
+      <main id="main">
       <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
         <div class="carousel-inner">
           <div class="carousel-item">
-            <img class="d-block w-100" src="images/hawaii.jpg" alt="Hawaii 1">
+            <img class="d-block w-100" src="assets/img/hawaii.jpg" alt="Hawaii 1">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="images/hawaii2.jpg" alt="Hawaii 2">
+            <img class="d-block w-100" src="assets/img/hawaii.jpg" alt="Hawaii 2">
           </div>
           <div class="carousel-item active">
-            <img class="d-block w-100" src="images/hawaii3.jpeg" alt="Hawaii 3">
+            <img class="d-block w-100" src="assets/img/one.jpg" alt="Hawaii 3">
           </div>
           <div class="overlay">
             <div class="container">
@@ -75,7 +77,7 @@
                    versions of Lorem Ipsum.
                   </p>
                   <a href="#" class="btn btn-outline-light">use it?</a>
-                  <button type="button" class="btn btn-platzi" data-toggle="modal" data-target="#modalCompra">Comprar tickets</button>
+                  <button type="button" class="btn btn-platzi" data-toggle="modal" data-target="#modalCompra">Comprar</button>
                 </div>
               </div>
             </div>
@@ -84,6 +86,8 @@
       </div>
     </main>
     <!-- /Main -->
+ 
+<!--end carrusel-->
 
     <!-- speakers -->
     <section id="speakers" class="mt-4">
