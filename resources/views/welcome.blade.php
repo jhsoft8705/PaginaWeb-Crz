@@ -26,20 +26,18 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link text-center active" href="#main">Planta Externaa</a>
+                <a class="nav-link text-center active" href="#main">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-center" href="#speakers">Planta Interna</a>
+                <a class="nav-link text-center" href="#speakers">Servicios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-center" href="#place-time">TSS y LOS</a>
+                <a class="nav-link text-center" href="#place-time">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-center" href="#conviertete-en-nuestro-cliente">software </a>
+                <a class="nav-link text-center" href="#conviertete-en-nuestro-cliente">Contactos</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text-center text-platzi" href="#" data-toggle="modal" data-target="#modalCompra">Compra tickets</a>
-              </li>
+              
             </ul>
           </div>
         </div>
@@ -64,15 +62,13 @@
             <div class="container">
               <div class="row align-items-center">
                 <div class="col-md-6 offset-md-6 text-center text-md-right">
-                  <h1>MISIÓN</h1>
+                  <h1>KRUZRD E.I.R.L</h1>
                   <p class="d-none d-md-block">
                   Ofrecemos soluciones innovadoras, 
                   transformamos y simplificamos vidas de nuestros clientes.
                   Y no nos conformamos, estamos dispuestos a cambiar para hacerlo mejor
-
                   </p>
-                  <a href="#" class="btn btn-primary">Nuestros clientes</a>
-                  <button type="button" class="btn btn-platzi" data-toggle="modal" data-target="#modalCompra">Comprar tickets</button>
+                 <!-- colocar boton para contacto whatsapp-->
                 </div>
               </div>
             </div>
@@ -88,8 +84,7 @@
         <div class="row">
           <div class="col text-center text-uppercase">
             <h2>NUESTROS SERVICIO</h2>
-            <h2>TELECOMUNICACIONES</h2>
-          </div>
+                     </div>
         </div>
         <div class="row">
           <div class="col-12 col-md-6 col-lg-3 mb-4">
