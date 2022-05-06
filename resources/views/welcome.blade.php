@@ -145,9 +145,9 @@
                 <div class="card-body">
                   <h5 class="card-title text-center">Sofware</h5>
                   <p class="card-text">Placas de prototipado.
-Abaratamiento de las comunicaciones.
-Disponibilidad de sensores de bajo coste.
-Plataformas IoT.</p>
+                     Abaratamiento de las comunicaciones.
+                     Disponibilidad de sensores de bajo coste.
+                    Plataformas IoT.</p>
                   <div class="badges">
                     <span class="badge badge-platzi mb-4">
                       IoT
@@ -189,7 +189,7 @@ Plataformas IoT.</p>
           <div class="col text-uppercase text-center">
             <h2>
               Conviertete en nuestro cliente
-</h2>
+          </h2>
             <h2>
               Envianos un correo 
             </h2>
