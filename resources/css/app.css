@@ -3,14 +3,13 @@
   }
   
   #header img {
-    width: 10px;
-    width: 10px;
+    width: 80px;
   }
   
   #main .carousel-inner img {
     max-height: 90vh;
     object-fit: cover;
-    filter: grayscale(100%);
+    filter: grayscale(80%);
   }
   
   #carousel {
