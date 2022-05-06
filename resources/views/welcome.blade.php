@@ -13,7 +13,7 @@
   <body data-spy="scroll" data-target="#navbarSupportedContent" data-offset="57">
     <!-- Header -->
     <header class="sticky-top">
-      <nav id="header" class="navbar navbar-expand-lg navbar-dark colornav">
+      <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img width="60px" height="40px" src="assets/img/logo.png" alt="Logo">
@@ -51,7 +51,7 @@
     <main id="main">
       <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
         <div class="carousel-inner">
-          <div class="carousel-item">
+          <div class="carousel-item ">
             <img class="d-block w-100" src="assets/img/tre.jpg" alt="Hawaii 1">
           </div>
           <div class="carousel-item">
