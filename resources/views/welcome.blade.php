@@ -16,7 +16,7 @@
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="images/platzi-logo.png" alt="Logo">
-            Why do we use it?
+            Nuestros Servicios
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,16 +25,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link text-center active" href="#main">Why do we use it?</a>
+                <a class="nav-link text-center active" href="#main">Planta Externa</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-center" href="#speakers">Why do we use it?</a>
+                <a class="nav-link text-center" href="#speakers">Planta Interna</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-center" href="#place-time">Why do we use it?</a>
+                <a class="nav-link text-center" href="#place-time">TSS y LOS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-center" href="#conviertete-en-orador">Why do we use it?</a>
+                <a class="nav-link text-center" href="#conviertete-en-orador">software </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-center text-platzi" href="#" data-toggle="modal" data-target="#modalCompra">Compra tickets</a>
@@ -63,18 +63,14 @@
             <div class="container">
               <div class="row align-items-center">
                 <div class="col-md-6 offset-md-6 text-center text-md-right">
-                  <h1>when an unknown p</h1>
+                  <h1>MISIÓN</h1>
                   <p class="d-none d-md-block">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                   when an unknown printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but also the leap into
-                  electronic typesetting, remaining essentially unchanged. It was popularised 
-                  in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                   and more recently with desktop publishing software like Aldus PageMaker including
-                   versions of Lorem Ipsum.
+                  Ofrecemos soluciones innovadoras, 
+                  transformamos y simplificamos vidas de nuestros clientes.
+                  Y no nos conformamos, estamos dispuestos a cambiar para hacerlo mejor
+
                   </p>
-                  <a href="#" class="btn btn-outline-light">use it?</a>
+                  <a href="#" class="btn btn-outline-light">Nuestros clientes</a>
                   <button type="button" class="btn btn-platzi" data-toggle="modal" data-target="#modalCompra">Comprar tickets</button>
                 </div>
               </div>
