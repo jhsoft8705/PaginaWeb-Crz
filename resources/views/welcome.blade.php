@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="resources/css/app.css">
 
-    <title>KRUZRD</title>
+    <title>My page</title>
   </head>
   <body data-spy="scroll" data-target="#navbarSupportedContent" data-offset="57">
     <!-- Header -->
@@ -17,7 +17,7 @@
         <div class="container">
           <a class="navbar-brand" href="#">
             <img width="60px" height="40px" src="assets/img/logo.png" alt="Logo">
-            COMUNICACIONES KRUZRD EIRL
+             COMUNICACIONES KRUZRD EIRL
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -35,7 +35,7 @@
                 <a class="nav-link text-center" href="#place-time">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-center" href="#conviertete-en-nuestro-cliente">Contactos</a>
+                <a class="nav-link text-center" href="#contacto">Contactos</a>
               </li>
               
             </ul>
@@ -62,7 +62,7 @@
             <div class="container">
               <div class="row align-items-center">
                 <div class="col-md-6 offset-md-6 text-center text-md-right ">
-                  <h1>QUE OFRECEMOS</h1>
+                  <h1>Que ofrecemos</h1>
                   <p class="d-none  d-md-block">
                   Ofrecemos soluciones innovadoras, 
                   transformamos y simplificamos vidas de nuestros clientes.
@@ -82,38 +82,46 @@
     <section id="speakers" class="mt-4">
       <div class="container">
         <div class="row">
-          <div class="col text-center text-uppercase">
+          <div class="col text-center text-capitalize">
             <h2>Nuestros Servicios</h2>
                      </div>
         </div>
         <div class="row">
           <div class="col-12 col-md-6 col-lg-3 mb-4">
             <div class="card">
-              <img class="card-img-top" src="speakers/sacha.jpg" alt="Foto de Sacha">
+              <img class="card-img-top" src="assets/img/plantaexterna.jpg" alt="te instalo fibra optica">
                 <div class="card-body">
                   <h5 class="card-title text-center">PLANTA EXTERNA</h5>
-                  <p class="card-text">Diseño, implementación y mantenimiento 
-                    para sistemas de cableado de diversos tipos, redes alámbricas e inalámbricas como tenedido de fibra optica y enlaces microondas</p>
+                  <p class="card-text">
+                    Diseño, implementación y mantenimiento para sistemas de cableado de diversos tipos, redes 
+                    alámbricas e inalámbricas como tenedido de fibra optica y enlaces microondas</p>
                   <div class="badges">
                     <span class="badge badge-platzi mb-4">
-                    fibra optica
+                    Fibra óptica
+                    </span>
+                    <span class="badge badge-platzi mb-4">
+                    Red eléctrica
                     </span>
                   </div>
+                  
                   <a href="#" class="btn btn-primary">Mas informacion</a>
                 </div>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-3 mb-4">
             <div class="card">
-              <img class="card-img-top" src="speakers/leonidas2.jpeg" alt="Foto de Leonidas">
+              <img class="card-img-top" src="assets/img/plantainterna.jpg" alt="Te instalo un data center">
                 <div class="card-body">
                   <h5 class="card-title text-center">PLANTA INTERNA</h5>
                   <p class="card-text">Diseño, suministro, energización 
                     e instalación de equipos que se ubican dentro de la edificación que alberga la central,
-                     cabecera o nodo del servicio de telecomunicaciones.    </p>
+                    cabecera o nodo del servicio de telecomunicaciones.    </p>
                   <div class="badges">
                     <span class="badge badge-platzi mb-4">
-                      Comisionamiento 
+                      Centrales
+                    </span>
+                    <span class="badge badge-platzi mb-4">
+                      Data Center 
                     </span>
                   </div>
                   <a href="#" class="btn btn-primary">mas informacion</a>
@@ -122,13 +130,13 @@
           </div>
           <div class="col-12 col-md-6 col-lg-3 mb-4">
             <div class="card">
-              <img class="card-img-top" src="speakers/cvander.jpeg" alt="Foto de Christian">
+              <img class="card-img-top" src="assets/img/tss.jpg" alt="tss">
                 <div class="card-body">
                   <h5 class="card-title text-center">TSS y LOS</h5>
                   <p class="card-text">Estidio de los sitios para la instalacion de equipos de comunicacion de transmision tanto opticos como de RF</p>
                   <div class="badges">
                     <span class="badge badge-platzi mb-4">
-                      Desarrollo
+                        Estudios TSS y LOS
                     </span>
                   </div>
                   <a href="#" class="btn btn-primary">mas informacion</a>
@@ -137,9 +145,9 @@
           </div>
           <div class="col-12 col-md-6 col-lg-3 mb-4">
             <div class="card">
-              <img class="card-img-top" src="speakers/freddy.jpeg" alt="Foto de Freddy">
+              <img class="card-img-top" src="assets/img/iot.jpg" alt="iot">
                 <div class="card-body">
-                  <h5 class="card-title text-center">Sofware</h5>
+                  <h5 class="card-title text-center">Software</h5>
                   <p class="card-text">Placas de prototipado.
                      Abaratamiento de las comunicaciones.
                      Disponibilidad de sensores de bajo coste.
@@ -163,7 +171,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 col-lg-6 pl-0 pr-0">
-            <img src="images/honolulu.jpg" alt="Foto de Honolulu">
+            <img src="assets/img/tel.jpg" alt="Foto de Honolulu">
           </div>
           <div class="col-12 col-lg-6 pt-4 pb-4">
             <h2>Las telecomunicaciones de Hoy</h2>
@@ -171,7 +179,7 @@
             Según escribe Doreen Bogdan-Martin, Directora de la Oficina de Desarrollo de las Telecomunicaciones de la UIT, los encargados de la formulación de políticas deben trabajar codo con codo con los jóvenes para desarrollar conjuntamente soluciones nuevas
              y audaces para nuestro futuro digital común.
             </p>
-            <a href="https://www.itu.int/es/Pages/default.aspx" class="btn btn-primary">Conoce más</a>
+            <a href="https://www.itu.int/es/Pages/default.aspx" target="_blank" class="btn btn-primary">Conoce más</a>
           </div>
         </div>
       </div>
@@ -179,40 +187,44 @@
     <!-- /Lugar y fecha -->
 
     <!-- Conviertete en orador -->
-    <section id="conviertete-en-orador" class="pt-2 pb-2">
+    <section id="contacto" class="pt-2 pb-2">
       <div class="container">
         <div class="row">
           <div class="col text-uppercase text-center">
             <h2>
-              Conviertete en nuestro cliente
+              Conviertete en nuestro cliente 
           </h2>
-            <h2>
-              Envianos un correo 
-            </h2>
+          
           </div>
         </div>
         <div class="row">
           <div class="col text-center">
-            Anótate como cliente <abbr data-toggle="tooltip" title="" data-original-title="Charla de 5 minutos">charla </abbr>.
-            Cuentanos de que quieres hablar!
+             Ingresa tu información en el siguiente formulario
           </div>
         </div>
         <div class="row">
           <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2 pb-2">
             <form>
-              <div class="form-row">
-                <div class="form-group col-12 col-md-6">
-                  <input type="text" class="form-control" placeholder="Nombre">
-                </div>
-                <div class="form-group col-12 col-md-6">
-                  <input type="text" class="form-control" placeholder="Apellido">
+            <div class="form-row">
+                <div class="form-group col">
+                  <input type="text" name="text" class="form-control form-control-lg" placeholder="Ingrese su Nombre y apellido">     
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col">
-                  <textarea name="text" class="form-control form-control-lg" placeholder="Sobre que quieres hablar?"></textarea>
+                  <input type="text" name="number" class="form-control form-control-lg" placeholder="Ingrese teléfono">     
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col">
+                  <input type="email" name="email" class="form-control form-control-lg" placeholder="Ingrese su correo electromico">     
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col">
+                  <textarea name="text" class="form-control form-control-lg" placeholder="Envie un mensaje"></textarea>
                   <small class="form-text form-muted">
-                    Recuerda incluir un titulo para tu charla
+                    Nos prondremos en conctacto lo mas antes posible.
                   </small>
                 </div>
               </div>
