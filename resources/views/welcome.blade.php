@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="resources/css/app.css">
 
-    <title>LOREM NAME</title>
+    <title>KRUZRD</title>
   </head>
   <body data-spy="scroll" data-target="#navbarSupportedContent" data-offset="57">
     <!-- Header -->
@@ -16,8 +16,13 @@
       <nav id="header" class="navbar navbar-expand-lg navbar-dark colonavar"   >
         <div class="container">
           <a class="navbar-brand" href="#">
+<<<<<<< HEAD
             <img src="assets/img/web.png" alt="Logo">
             KRUZRD E.I.R.L
+=======
+            <img src="images/platzi-logo.png" alt="Logo">
+            COMUNICACIONES KRUZRD EIRL
+>>>>>>> 7d1227d78fa4ae6b4b2f6eaad4cd2b013d4d6fad
           </a>
           <button class="navbar-toggler btn btn-primary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon btn btn-primary"></span>
@@ -26,16 +31,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link text-center active" href="#main">Why do we use it?</a>
+                <a class="nav-link text-center active" href="#main">Planta Externa</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-center" href="#speakers">Why do we use it?</a>
+                <a class="nav-link text-center" href="#speakers">Planta Interna</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-center" href="#place-time">Why do we use it?</a>
+                <a class="nav-link text-center" href="#place-time">TSS y LOS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-center" href="#conviertete-en-orador">Why do we use it?</a>
+                <a class="nav-link text-center" href="#conviertete-en-nuestro-cliente">software </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-center text-platzi" href="#" data-toggle="modal" data-target="#modalCompra">Compra tickets</a>
@@ -65,19 +70,17 @@
             <div class="container">
               <div class="row align-items-center">
                 <div class="col-md-6 offset-md-6 text-center text-md-right">
-                  <h1>when an unknown p</h1>
+                  <h1>MISIÓN</h1>
                   <p class="d-none d-md-block">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                   when an unknown printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but also the leap into
-                  electronic typesetting, remaining essentially unchanged. It was popularised 
-                  in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                   and more recently with desktop publishing software like Aldus PageMaker including
-                   versions of Lorem Ipsum.
+                  Ofrecemos soluciones innovadoras, 
+                  transformamos y simplificamos vidas de nuestros clientes.
+                  Y no nos conformamos, estamos dispuestos a cambiar para hacerlo mejor
+
                   </p>
                   <a href="#" class="btn btn-outline-light">use it?</a>
                   <button type="button" class="btn btn-platzi" data-toggle="modal" data-target="#modalCompra">Comprar</button>
+                  <a href="#" class="btn btn-primary">Nuestros clientes</a>
+                  <button type="button" class="btn btn-platzi" data-toggle="modal" data-target="#modalCompra">Comprar tickets</button>
                 </div>
               </div>
             </div>
@@ -94,8 +97,8 @@
       <div class="container">
         <div class="row">
           <div class="col text-center text-uppercase">
-            <small>use it?Conoce a los</small>
-            <h2>use it?</h2>
+            <h2>NUESTROS SERVICIO</h2>
+            <h2>TELECOMUNICACIONES</h2>
           </div>
         </div>
         <div class="row">
@@ -103,14 +106,15 @@
             <div class="card">
               <img class="card-img-top" src="speakers/sacha.jpg" alt="Foto de Sacha">
                 <div class="card-body">
-                  <h5 class="card-title text-center">Sacha Lifszyc</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <h5 class="card-title text-center">PLANTA EXTERNA</h5>
+                  <p class="card-text">Diseño, implementación y mantenimiento 
+                    para sistemas de cableado de diversos tipos, redes alámbricas e inalámbricas como tenedido de fibra optica y enlaces microondas</p>
                   <div class="badges">
                     <span class="badge badge-platzi mb-4">
-                    use it?
+                    fibra optica
                     </span>
                   </div>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <a href="#" class="btn btn-primary">Mas informacion</a>
                 </div>
             </div>
           </div>
@@ -118,14 +122,16 @@
             <div class="card">
               <img class="card-img-top" src="speakers/leonidas2.jpeg" alt="Foto de Leonidas">
                 <div class="card-body">
-                  <h5 class="card-title text-center">use it?</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <h5 class="card-title text-center">PLANTA INTERNA</h5>
+                  <p class="card-text">Diseño, suministro, energización 
+                    e instalación de equipos que se ubican dentro de la edificación que alberga la central,
+                     cabecera o nodo del servicio de telecomunicaciones.    </p>
                   <div class="badges">
                     <span class="badge badge-platzi mb-4">
-                      Desarrollo Web
+                      Comisionamiento 
                     </span>
                   </div>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <a href="#" class="btn btn-primary">mas informacion</a>
                 </div>
             </div>
           </div>
@@ -133,14 +139,14 @@
             <div class="card">
               <img class="card-img-top" src="speakers/cvander.jpeg" alt="Foto de Christian">
                 <div class="card-body">
-                  <h5 class="card-title text-center">use it?.</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <h5 class="card-title text-center">TSS y LOS</h5>
+                  <p class="card-text">Estidio de los sitios para la instalacion de equipos de comunicacion de transmision tanto opticos como de RF</p>
                   <div class="badges">
                     <span class="badge badge-platzi mb-4">
-                      Startups
+                      Desarrollo
                     </span>
                   </div>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <a href="#" class="btn btn-primary">mas informacion</a>
                 </div>
             </div>
           </div>
@@ -148,14 +154,17 @@
             <div class="card">
               <img class="card-img-top" src="speakers/freddy.jpeg" alt="Foto de Freddy">
                 <div class="card-body">
-                  <h5 class="card-title text-center">use it?</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <h5 class="card-title text-center">Sofware</h5>
+                  <p class="card-text">Placas de prototipado.
+Abaratamiento de las comunicaciones.
+Disponibilidad de sensores de bajo coste.
+Plataformas IoT.</p>
                   <div class="badges">
                     <span class="badge badge-platzi mb-4">
                       IoT
                     </span>
                   </div>
-                  <a href="#" class="btn btn-primary">use it?</a>
+                  <a href="#" class="btn btn-primary">mas informacion</a>
                 </div>
             </div>
           </div>
@@ -172,13 +181,12 @@
             <img src="images/honolulu.jpg" alt="Foto de Honolulu">
           </div>
           <div class="col-12 col-lg-6 pt-4 pb-4">
-            <h2>Honolulu - Octubre 2022</h2>
+            <h2>Las telecomunicaciones de Hoy</h2>
             <p>
-            The standard chunk of Lorem Ipsum used since the 1500s is 
-            reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by
-            English versions from the 1914 translation by H. Rackham.
+            Según escribe Doreen Bogdan-Martin, Directora de la Oficina de Desarrollo de las Telecomunicaciones de la UIT, los encargados de la formulación de políticas deben trabajar codo con codo con los jóvenes para desarrollar conjuntamente soluciones nuevas
+             y audaces para nuestro futuro digital común.
             </p>
-            <a href="https://es.wikipedia.org/wiki/Honolulu" class="btn btn-outline-light">Conoce más</a>
+            <a href="https://www.itu.int/es/Pages/default.aspx" class="btn btn-primary">Conoce más</a>
           </div>
         </div>
       </div>
@@ -190,17 +198,17 @@
       <div class="container">
         <div class="row">
           <div class="col text-uppercase text-center">
-            <small>
-              Conviertete en un
-            </small>
             <h2>
-              UDUSDSADSDSA
+              Conviertete en nuestro cliente
+</h2>
+            <h2>
+              Envianos un correo 
             </h2>
           </div>
         </div>
         <div class="row">
           <div class="col text-center">
-            Anótate como un orador para dar una <abbr data-toggle="tooltip" title="" data-original-title="Charla de 5 minutos">charla ignite</abbr>.
+            Anótate como cliente <abbr data-toggle="tooltip" title="" data-original-title="Charla de 5 minutos">charla </abbr>.
             Cuentanos de que quieres hablar!
           </div>
         </div>
@@ -235,7 +243,7 @@
         </div>
       </div>
     </section>
-    <!-- /Conviertete en orador -->
+    <!-- /Conviertete en nuestro cliente -->
 
     <!-- Footer -->
     <footer id="footer" class="pb-4 pt-4">
@@ -248,10 +256,10 @@
             <a href="#">Contactenos</a>
           </div>
           <div class="col-12 col-lg">
-            <a href="#">Lorem</a>
+            <a href="#">KRUZRD</a>
           </div>
           <div class="col-12 col-lg">
-            <a href="#">Lorem</a>
+            <a href="#">KRUZRD</a>
           </div>
           <div class="col-12 col-lg">
             <a href="#">Terminos y condiciones</a>
