@@ -58,12 +58,12 @@
           <div class="carousel-item active">
             <img class="d-block w-100" src="assets/img/one.jpg" alt="Hawaii 3">
           </div>
-          <div class="overlay">
+          <div class="overlay carousel-caption">
             <div class="container">
               <div class="row align-items-center">
-                <div class="col-md-6 offset-md-6 text-center text-md-right">
+                <div class="col-md-6 offset-md-6 text-center text-md-right ">
                   <h1>KRUZRD E.I.R.L</h1>
-                  <p class="d-none d-md-block">
+                  <p class="d-none  d-md-block">
                   Ofrecemos soluciones innovadoras, 
                   transformamos y simplificamos vidas de nuestros clientes.
                   Y no nos conformamos, estamos dispuestos a cambiar para hacerlo mejor
@@ -83,7 +83,7 @@
       <div class="container">
         <div class="row">
           <div class="col text-center text-uppercase">
-            <h2>NUESTROS SERVICIO</h2>
+            <h2>Nuestros Servicios</h2>
                      </div>
         </div>
         <div class="row">
