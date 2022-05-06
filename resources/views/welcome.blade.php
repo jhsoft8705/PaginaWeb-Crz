@@ -6,6 +6,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="resources/css/app.css">
 
     <title>KRUZRD</title>
   </head>
@@ -51,13 +52,13 @@
       <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
         <div class="carousel-inner">
           <div class="carousel-item">
-            <img class="d-block w-100" src="images/hawaii.jpg" alt="Hawaii 1">
+            <img class="d-block w-100" src="assets/img/tre.jpg" alt="Hawaii 1">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="images/hawaii2.jpg" alt="Hawaii 2">
+            <img class="d-block w-100" src="assets/img/two.jpg" alt="Hawaii 2">
           </div>
           <div class="carousel-item active">
-            <img class="d-block w-100" src="images/hawaii3.jpeg" alt="Hawaii 3">
+            <img class="d-block w-100" src="assets/img/one.jpg" alt="Hawaii 3">
           </div>
           <div class="overlay">
             <div class="container">
