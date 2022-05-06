@@ -13,7 +13,7 @@
   <body data-spy="scroll" data-target="#navbarSupportedContent" data-offset="57">
     <!-- Header -->
     <header class="sticky-top">
-      <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav id="header" class="navbar navbar-expand-lg navbar-dark colornav">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img width="60px" height="40px" src="assets/img/logo.png" alt="Logo">
