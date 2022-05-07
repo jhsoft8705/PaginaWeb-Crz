@@ -311,7 +311,8 @@
       </div>
     </div>
     <!-- /Modal -->
-    <a href="#" class="btn-wsp" target="_blank"> 
+    <!--btn flotante-->
+    <a href="https://wa.link/rdf3wr" class="btn-wsp" target="_blank"> 
     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-whatsapp m-2"
         viewBox="0 0 16 16">
         <path
