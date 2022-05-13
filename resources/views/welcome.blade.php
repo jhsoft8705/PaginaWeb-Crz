@@ -10,15 +10,15 @@
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 
 
-    <title>My page</title>
+    <title>CKruzRD</title>
   </head>
   <body data-spy="scroll" data-target="#navbarSupportedContent" data-offset="57">
-    <!-- Header -->
+    <!-- Header --> 
     <header class="sticky-top">
       <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-          <a class="navbar-brand" href="#">
-            <img width="60px" height="40px" src="assets/img/logo.png" alt="Logo">
+          <a class="navbar-brand" href="#main">
+            <img  src="assets/img/iconpng.png" alt="Logo">
              COMUNICACIONES KRUZRD EIRL 
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,13 +47,23 @@
       </nav>
     </header>
     <!-- /Header -->
-
+    @if(session('namemensaje'))
+      
+      <div class="alert alert-warning alert-dismissible fade show btn btn-platzi btn-block m-0" role="alert">
+        <strong>Hola!</strong> {{session('namemensaje')}}
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> 
+     </div>
+      {{-- mensaje --}} 
+    @endif
+    {{-- /mensaje --}}
     <!-- Main -->
     <main id="main">
       <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
         <div class="carousel-inner">
           <div class="carousel-item ">
-            <img class="d-block w-100" src="assets/img/tre.jpg" alt="Hawaii 1">
+            <img class="d-block w-100" src="assets/img/tss.jpg" alt="Hawaii 1">
           </div>
           <div class="carousel-item">
             <img class="d-block w-100" src="assets/img/two.jpg" alt="Hawaii 2">
@@ -189,15 +199,17 @@
     </section>
     <!-- /Lugar y fecha -->
 
-    <!-- Conviertete en orador -->
+    <!-- Coontacto formuario --> 
+  
     <section id="contacto" class="pt-2 pb-2">
+      <form id="contacto"action="{{route('pagina.store')}}" method="POST">
+        @csrf
       <div class="container">
         <div class="row">
           <div class="col text-uppercase text-center">
             <h2>
               Conviertete en nuestro cliente 
-          </h2>
-          
+          </h2> 
           </div>
         </div>
         <div class="row">
@@ -210,22 +222,22 @@
             <form>
             <div class="form-row">
                 <div class="form-group col">
-                  <input type="text" name="text" class="form-control form-control-lg" placeholder="Ingrese su Nombre y apellido">     
+                  <input type="text" name="nombre" class="form-control form-control-lg" required placeholder="Ingrese su Nombre y apellido">     
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col">
-                  <input type="text" name="number" class="form-control form-control-lg" placeholder="Ingrese teléfono">     
+                  <input type="text" name="tel" class="form-control form-control-lg" required placeholder="Ingrese teléfono">     
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col">
-                  <input type="email" name="email" class="form-control form-control-lg" placeholder="Ingrese su correo electromico">     
+                  <input type="email" name="email" class="form-control form-control-lg"required placeholder="Ingrese su correo electromico">     
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col">
-                  <textarea name="text" class="form-control form-control-lg" placeholder="Envie un mensaje"></textarea>
+                  <textarea name="comentario" class="form-control form-control-lg" required placeholder="Envie un mensaje"></textarea>
                   <small class="form-text form-muted">
                     Nos prondremos en conctacto lo mas antes posible.
                   </small>
@@ -233,34 +245,25 @@
               </div>
               <div class="form-row">
                 <div class="col">
-                  <button type="button" class="btn btn-platzi btn-block">
-                    Enviar
+                  <button type="submit"class="btn btn-platzi btn-block">
+                      Enviar
                   </button>
-                </div>
+                </div> 
               </div>
             </form>
           </div>
         </div>
+      </form>
       </div>
-    </section>
+    </section> 
     <!-- /Conviertete en nuestro cliente -->
-
     <!-- Footer -->
     <footer id="footer" class="pb-4 pt-4">
       <div class="container">
         <div class="row text-center">
           <div class="col-12 col-lg">
             <a href="#">Preguntas frecuentes</a>
-          </div>
-          <div class="col-12 col-lg">
-            <a href="#">Contactenos</a>
-          </div>
-          <div class="col-12 col-lg">
-            <a href="#">KRUZRD</a>
-          </div>
-          <div class="col-12 col-lg">
-            <a href="#">KRUZRD</a>
-          </div>
+          </div> 
           <div class="col-12 col-lg">
             <a href="#">Terminos y condiciones</a>
           </div>
@@ -268,7 +271,10 @@
             <a href="#">Privacidad</a>
           </div>
           <div class="col-12 col-lg">
-            <a href="#">Estudiantes</a>
+            <a href="#">Clientes</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="#">Redes sociales</a>
           </div>
 
         </div>
