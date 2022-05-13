@@ -183,7 +183,7 @@
     <section id="place-time">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 col-lg-6 pl-0 pr-0">
+          <div class="col-12 col-lg-6 pl-0 pr-0">gzwrite
             <img src="assets/img/tel.jpg" alt="Foto de Honolulu">
           </div>
           <div class="col-12 col-lg-6 pt-4 pb-4">
